@@ -28,3 +28,4 @@ builder.AttachInterceptorsToRegistrations(new LogInterceptor(Console.Out));
 //build container
 var container = builder.Build();
 ```
+Check the Autofac.SmartInterceptor.Tests for more examples on how to use it.
